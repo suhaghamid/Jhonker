@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.titlecolor{
+    color: orange;
+}
+
+.margin-top{
+    margin-top: 5%;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 700;
+   background-image:linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
+.second-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.Experiences-ara{
+background-image: url(img/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.Experiences-ara-top{
+    margin-top: 3%;
+}
+.Experiences-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 5%;
+}
+#Experiences-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, tomato) 30;
+}
+
+#Experiences-border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #00f3f3) 30;
+}
+
+footer p{
+    text-align: center;
+}
